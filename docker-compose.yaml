@@ -6,7 +6,7 @@ services:
       - "8080:8080"
      volumes:
       - "/mnt/war:/usr/local/tomcat/webapps"
-    tomcat: 
+   tomcat: 
      images: 'tomcat:9'
      ports: 
       - "8090:8080"
